@@ -10,6 +10,7 @@ const UseRefBasics = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(refContainer.current.value);
+        console.log(divContainer.current.innerHTML)
     };
     return (
         <>
